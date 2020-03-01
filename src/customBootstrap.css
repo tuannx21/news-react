@@ -1,3 +1,12 @@
+figure {
+  margin-bottom: 0;
+}
+
+.card {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
 .card-img-top {
   padding-top: 56.25%;
   position: relative;
@@ -9,5 +18,5 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 110%;
 }
