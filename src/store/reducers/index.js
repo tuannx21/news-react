@@ -1,15 +1,10 @@
-const initialState = {
-  articles: [],
-  isLoading: true,
-  isErrors: false
-}
+import {combineReducers} from 'redux'
+import articles from './articles'
+import auth from './auth'
 
-const rootReducer = (state, action) => {
-  switch(action.type) {
-    
-    default:
-      return state
-  }
-}
+const rootReducer = combineReducers({
+  articles,
+  auth
+})
 
 export default rootReducer
